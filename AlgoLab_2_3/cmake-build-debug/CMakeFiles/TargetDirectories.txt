@@ -1,0 +1,9 @@
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/spantree3.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/AlgoLab_2_3.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/deg.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/chinese_notmine.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/spantree.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/chinese.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/kruskal.dir
+C:/Users/Zver/CLionProjects/AlgoLab_2_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

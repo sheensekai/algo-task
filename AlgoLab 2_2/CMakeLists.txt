@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.13)
+project(AlgoLab_2_2)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(AlgoLab_2_2 main.cpp handmade_graph.cpp handmade_graph.h)
+add_executable(topsort top_sort.cpp)
+add_executable(cycle cycle.cpp)
+add_executable(check check.cpp)
+add_executable(bipartite bipartite.cpp)
+add_executable(cond cond.cpp)
+add_executable(hamiltonian hamiltonian.cpp)
+add_executable(game game.cpp)
+add_executable(game2 game_2.cpp)
+add_executable(graph graph.cpp graph.h)
+add_executable(test test.cpp)

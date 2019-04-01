@@ -1,0 +1,10 @@
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/labyrinth.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/AlgoLab_2_1.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/labyrinth2.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/paral_check.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/adj_matrix.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/orient_check.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/components.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/pathbge1.dir
+C:/Users/Zver/CLionProjects/AlgoLab 2_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

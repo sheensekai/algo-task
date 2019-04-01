@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\pathmgep.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\pathmgep.dir/objects.a @CMakeFiles\pathmgep.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\pathmgep.dir/objects.a -Wl,--no-whole-archive  -o pathmgep.exe -Wl,--out-implib,libpathmgep.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pathmgep.dir\linklibs.rsp

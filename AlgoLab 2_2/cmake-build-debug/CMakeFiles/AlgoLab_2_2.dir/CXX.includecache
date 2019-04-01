@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zver/CLionProjects/AlgoLab 2_2/handmade_graph.cpp
+handmade_graph.h
+C:/Users/Zver/CLionProjects/AlgoLab 2_2/handmade_graph.h
+
+C:/Users/Zver/CLionProjects/AlgoLab 2_2/handmade_graph.h
+cstddef
+-
+fstream
+-
+string
+-
+queue
+-
+
