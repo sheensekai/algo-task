@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/matching2.cpp
+vector
+-
+iostream
+-
+fstream
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/maxflow.cpp
+iostream
+-
+fstream
+-
+vector
+-
+queue
+-
+stack
+-
+climits
+-
+

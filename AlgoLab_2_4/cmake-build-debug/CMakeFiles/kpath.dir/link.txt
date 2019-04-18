@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\kpath.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\kpath.dir/objects.a @CMakeFiles\kpath.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\kpath.dir/objects.a -Wl,--no-whole-archive  -o kpath.exe -Wl,--out-implib,libkpath.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kpath.dir\linklibs.rsp

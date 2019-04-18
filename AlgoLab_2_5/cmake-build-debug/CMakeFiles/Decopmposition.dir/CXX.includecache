@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/decomposition.cpp
+iostream
+-
+fstream
+-
+vector
+-
+forward_list
+-
+queue
+-
+stack
+-
+climits
+-
+

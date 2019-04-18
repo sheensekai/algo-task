@@ -1,0 +1,7 @@
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/MaxFlow.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/Matching.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/Decopmposition.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/Matching2.dir
+C:/Users/Zver/CLionProjects/AlgoLab/AlgoLab_2_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
