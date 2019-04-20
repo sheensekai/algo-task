@@ -72,9 +72,6 @@ int main() {
     int v, e;
     input >> v >> e;
 
-    int start = 0;
-    int finish = v - 1;
-
     int out, in, capacity;
     std::vector<Vertex> verts(v);
     for (int i = 0; i < v; ++i)

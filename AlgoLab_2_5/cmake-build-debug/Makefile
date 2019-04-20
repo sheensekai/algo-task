@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Circulation
+
+# Build rule for target.
+Circulation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Circulation
+.PHONY : Circulation
+
+# fast build rule for target.
+Circulation/fast:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/build
+.PHONY : Circulation/fast
+
+#=============================================================================
 # Target rules for targets named AlgoLab_2_5
 
 # Build rule for target.
@@ -173,6 +186,33 @@ Matching2: cmake_check_build_system
 Matching2/fast:
 	$(MAKE) -f CMakeFiles\Matching2.dir\build.make CMakeFiles/Matching2.dir/build
 .PHONY : Matching2/fast
+
+circulation.obj: circulation.cpp.obj
+
+.PHONY : circulation.obj
+
+# target to build an object file
+circulation.cpp.obj:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/circulation.cpp.obj
+.PHONY : circulation.cpp.obj
+
+circulation.i: circulation.cpp.i
+
+.PHONY : circulation.i
+
+# target to preprocess a source file
+circulation.cpp.i:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/circulation.cpp.i
+.PHONY : circulation.cpp.i
+
+circulation.s: circulation.cpp.s
+
+.PHONY : circulation.s
+
+# target to generate assembly for a file
+circulation.cpp.s:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/circulation.cpp.s
+.PHONY : circulation.cpp.s
 
 decomposition.obj: decomposition.cpp.obj
 
@@ -315,6 +355,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Circulation
 	@echo ... AlgoLab_2_5
 	@echo ... MaxFlow
 	@echo ... Matching
@@ -322,6 +363,9 @@ help:
 	@echo ... Decopmposition
 	@echo ... Matching2
 	@echo ... rebuild_cache
+	@echo ... circulation.obj
+	@echo ... circulation.i
+	@echo ... circulation.s
 	@echo ... decomposition.obj
 	@echo ... decomposition.i
 	@echo ... decomposition.s

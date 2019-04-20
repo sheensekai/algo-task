@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AlgoLab_2_5" targetName="Matching2" />
       <config projectName="AlgoLab_2_5" targetName="Decopmposition" />
+      <config projectName="AlgoLab_2_5" targetName="Matching2" />
       <config projectName="AlgoLab_2_5" targetName="Matching" />
+      <config projectName="AlgoLab_2_5" targetName="Circulation" />
       <config projectName="AlgoLab_2_5" targetName="MaxFlow" />
       <config projectName="AlgoLab_2_5" targetName="AlgoLab_2_5" />
     </generated>
@@ -16,154 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="934cbed6-1952-40c8-ba57-8f0baa3e5baa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlgoLab_2_4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AlgoLab_2_5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/AlgoLab_2_5.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/AlgoLab_2_4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/kpath.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/kpath.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/negcycle.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/negcycle.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgoLab_2_5.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.cpp.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/path.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/path.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/pathbgep.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathbgep.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/pathmgep.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathmgep.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/pathsg.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/pathsg.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoLab_2_4/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AlgoLab_2_5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AlgoLab_2_5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Decopmposition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Decopmposition.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MaxFlow.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MaxFlow.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decomposition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -177,105 +43,72 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maxflow.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122">
-              <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/maxflow.out">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="655" selection-start-line="655" selection-end-line="655" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="249" selection-start-line="249" selection-end-line="249" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decomposition.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
-              <folding>
-                <element signature="e#167#618#1" />
-                <element signature="e#621#844#1" />
-                <element signature="e#847#972#1" />
-                <element signature="e#1324#2690#0" />
-                <element signature="e#2692#3066#0" />
-                <element signature="e#3068#3979#0" />
-                <element signature="e#5460#6138#0" />
-                <element signature="e#6140#6873#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matching2.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matching.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3207">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="e#192#544#1" />
-                <element signature="e#547#674#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.61677855">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/circulation.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1649">
+                  <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/decomposition.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-255">
+                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+                  <folding>
+                    <element signature="e#161#612#1" />
+                    <element signature="e#615#838#1" />
+                    <element signature="e#841#966#1" />
+                    <element signature="e#1318#2684#0" />
+                    <element signature="e#2686#3060#0" />
+                    <element signature="e#4095#4182#0" />
+                    <element signature="e#4184#5568#0" />
+                    <element signature="e#5570#6248#0" />
+                    <element signature="e#6250#6983#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.out">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.in">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -299,6 +132,8 @@
       <find>Vertex</find>
       <find>int</find>
       <find>long long</find>
+      <find>0</find>
+      <find>minC</find>
     </findStrings>
     <replaceStrings>
       <replace>p_edge-&gt;</replace>
@@ -313,6 +148,8 @@
       <replace>min_flow</replace>
       <replace>long long</replace>
       <replace>int</replace>
+      <replace>first</replace>
+      <replace>min_cap</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -325,11 +162,13 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/matching.in" />
         <option value="$PROJECT_DIR$/matching2.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/maxflow.in" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/maxflow.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/decomposition.out" />
         <option value="$PROJECT_DIR$/cmake-build-debug/decomposition.in" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/decomposition.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/circulation.in" />
+        <option value="$PROJECT_DIR$/circulation.cpp" />
       </list>
     </option>
   </component>
@@ -353,6 +192,11 @@
             <path>
               <item name="AlgoLab_2_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoLab_2_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgoLab_2_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoLab_2_5" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgoLab_2_5" type="b2602c69:ProjectViewProjectNode" />
@@ -388,8 +232,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Decopmposition">
+  <component name="RunManager" selected="CMake Application.Circulation">
     <configuration name="AlgoLab_2_5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AlgoLab_2_5" TARGET_NAME="AlgoLab_2_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AlgoLab_2_5" RUN_TARGET_NAME="AlgoLab_2_5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Circulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AlgoLab_2_5" TARGET_NAME="Circulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AlgoLab_2_5" RUN_TARGET_NAME="Circulation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -416,6 +265,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.AlgoLab_2_5" />
+      <item itemvalue="CMake Application.Circulation" />
       <item itemvalue="CMake Application.Decopmposition" />
       <item itemvalue="CMake Application.Matching2" />
       <item itemvalue="CMake Application.Matching" />
@@ -453,17 +303,44 @@
       <workItem from="1555407569887" duration="32000" />
       <workItem from="1555518216474" duration="10742000" />
       <workItem from="1555575498903" duration="4533000" />
-      <workItem from="1555580086690" duration="9985000" />
+      <workItem from="1555580086690" duration="10640000" />
+      <workItem from="1555602874352" duration="27000" />
+      <workItem from="1555614350116" duration="288000" />
+      <workItem from="1555615935823" duration="18000" />
+      <workItem from="1555695829540" duration="8790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76815000" />
+    <option name="totallyTimeSpent" value="86593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21140939" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22547585" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33089313" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32650074" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -474,7 +351,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329429" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329429" />
@@ -483,7 +360,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -543,18 +420,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/decomposition.cpp</url>
-          <line>102</line>
+          <line>99</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/decomposition.cpp</url>
-          <line>93</line>
+          <line>90</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/decomposition.cpp</url>
-          <line>128</line>
+          <line>125</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/circulation.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/circulation.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/circulation.cpp</url>
+          <line>84</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/circulation.cpp</url>
+          <line>182</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -578,6 +475,11 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>edges[pos]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>verts[14].adj_real[0]</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -669,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -690,26 +585,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/maxflow.out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="655" selection-start-line="655" selection-end-line="655" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maxflow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
+        <state relative-caret-position="510">
           <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -717,41 +595,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/maxflow.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="4233">
           <caret line="249" selection-start-line="249" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decomposition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
-          <folding>
-            <element signature="e#167#618#1" />
-            <element signature="e#621#844#1" />
-            <element signature="e#847#972#1" />
-            <element signature="e#1324#2690#0" />
-            <element signature="e#2692#3066#0" />
-            <element signature="e#3068#3979#0" />
-            <element signature="e#5460#6138#0" />
-            <element signature="e#6140#6873#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matching2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -760,12 +617,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matching.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3207">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="159">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
           <folding>
             <element signature="e#192#544#1" />
             <element signature="e#547#674#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="780" selection-start-line="780" selection-end-line="780" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decomposition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#161#612#1" />
+            <element signature="e#615#838#1" />
+            <element signature="e#841#966#1" />
+            <element signature="e#1318#2684#0" />
+            <element signature="e#2686#3060#0" />
+            <element signature="e#4095#4182#0" />
+            <element signature="e#4184#5568#0" />
+            <element signature="e#5570#6248#0" />
+            <element signature="e#6250#6983#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circulation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
         </state>
       </provider>
     </entry>

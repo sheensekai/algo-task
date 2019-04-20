@@ -64,6 +64,43 @@ CMAKE_SOURCE_DIR = C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5
 CMAKE_BINARY_DIR = C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Circulation.dir
+
+# All Build rule for target.
+CMakeFiles/Circulation.dir/all:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/depend
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Circulation"
+.PHONY : CMakeFiles/Circulation.dir/all
+
+# Include target in all.
+all: CMakeFiles/Circulation.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Circulation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Circulation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Circulation.dir/rule
+
+# Convenience name for target.
+Circulation: CMakeFiles/Circulation.dir/rule
+
+.PHONY : Circulation
+
+# clean rule for target.
+CMakeFiles/Circulation.dir/clean:
+	$(MAKE) -f CMakeFiles\Circulation.dir\build.make CMakeFiles/Circulation.dir/clean
+.PHONY : CMakeFiles/Circulation.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Circulation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/AlgoLab_2_5.dir
 
 # All Build rule for target.
@@ -107,7 +144,7 @@ clean: CMakeFiles/AlgoLab_2_5.dir/clean
 CMakeFiles/MaxFlow.dir/all:
 	$(MAKE) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/depend
 	$(MAKE) -f CMakeFiles\MaxFlow.dir\build.make CMakeFiles/MaxFlow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target MaxFlow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target MaxFlow"
 .PHONY : CMakeFiles/MaxFlow.dir/all
 
 # Include target in all.
@@ -144,7 +181,7 @@ clean: CMakeFiles/MaxFlow.dir/clean
 CMakeFiles/Matching.dir/all:
 	$(MAKE) -f CMakeFiles\Matching.dir\build.make CMakeFiles/Matching.dir/depend
 	$(MAKE) -f CMakeFiles\Matching.dir\build.make CMakeFiles/Matching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Matching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Matching"
 .PHONY : CMakeFiles/Matching.dir/all
 
 # Include target in all.
@@ -181,7 +218,7 @@ clean: CMakeFiles/Matching.dir/clean
 CMakeFiles/Decopmposition.dir/all:
 	$(MAKE) -f CMakeFiles\Decopmposition.dir\build.make CMakeFiles/Decopmposition.dir/depend
 	$(MAKE) -f CMakeFiles\Decopmposition.dir\build.make CMakeFiles/Decopmposition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Decopmposition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Decopmposition"
 .PHONY : CMakeFiles/Decopmposition.dir/all
 
 # Include target in all.
@@ -218,7 +255,7 @@ clean: CMakeFiles/Decopmposition.dir/clean
 CMakeFiles/Matching2.dir/all:
 	$(MAKE) -f CMakeFiles\Matching2.dir\build.make CMakeFiles/Matching2.dir/depend
 	$(MAKE) -f CMakeFiles\Matching2.dir\build.make CMakeFiles/Matching2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Matching2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Zver\CLionProjects\AlgoLab\AlgoLab_2_5\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Matching2"
 .PHONY : CMakeFiles/Matching2.dir/all
 
 # Include target in all.
