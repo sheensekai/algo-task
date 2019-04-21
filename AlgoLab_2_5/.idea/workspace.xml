@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AlgoLab_2_5" targetName="Decopmposition" />
-      <config projectName="AlgoLab_2_5" targetName="Matching2" />
-      <config projectName="AlgoLab_2_5" targetName="Matching" />
       <config projectName="AlgoLab_2_5" targetName="Circulation" />
-      <config projectName="AlgoLab_2_5" targetName="MaxFlow" />
       <config projectName="AlgoLab_2_5" targetName="AlgoLab_2_5" />
+      <config projectName="AlgoLab_2_5" targetName="Matching2" />
+      <config projectName="AlgoLab_2_5" targetName="Decopmposition" />
+      <config projectName="AlgoLab_2_5" targetName="MaxFlow" />
+      <config projectName="AlgoLab_2_5" targetName="Matching" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -17,19 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="934cbed6-1952-40c8-ba57-8f0baa3e5baa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AlgoLab_2_6/.idea/AlgoLab_2_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgoLab_2_6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgoLab_2_6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgoLab_2_6/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AlgoLab_2_5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AlgoLab_2_5.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Decopmposition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Decopmposition.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Matching2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MaxFlow.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MaxFlow.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decomposition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/decomposition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/circulation.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,43 +36,55 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61677855">
+    <splitter split-orientation="horizontal" split-proportion="0.61276597">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/circulation.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1649">
-                  <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
+                  <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/circulation.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/decomposition.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-255">
-                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+                <state relative-caret-position="102">
+                  <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
                   <folding>
                     <element signature="e#161#612#1" />
                     <element signature="e#615#838#1" />
                     <element signature="e#841#966#1" />
-                    <element signature="e#1318#2684#0" />
-                    <element signature="e#2686#3060#0" />
-                    <element signature="e#4095#4182#0" />
-                    <element signature="e#4184#5568#0" />
-                    <element signature="e#5570#6248#0" />
-                    <element signature="e#6250#6983#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.in">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="6" lean-forward="true" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -87,12 +92,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.out">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +105,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.in">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+                <state relative-caret-position="119">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -164,11 +169,11 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/maxflow.in" />
         <option value="$PROJECT_DIR$/maxflow.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/decomposition.out" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/decomposition.in" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/decomposition.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/circulation.in" />
         <option value="$PROJECT_DIR$/circulation.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/decomposition.in" />
       </list>
     </option>
   </component>
@@ -232,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Circulation">
+  <component name="RunManager" selected="CMake Application.Decopmposition">
     <configuration name="AlgoLab_2_5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AlgoLab_2_5" TARGET_NAME="AlgoLab_2_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AlgoLab_2_5" RUN_TARGET_NAME="AlgoLab_2_5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -307,24 +312,27 @@
       <workItem from="1555602874352" duration="27000" />
       <workItem from="1555614350116" duration="288000" />
       <workItem from="1555615935823" duration="18000" />
-      <workItem from="1555695829540" duration="8790000" />
+      <workItem from="1555695829540" duration="10414000" />
+      <workItem from="1555768851164" duration="696000" />
+      <workItem from="1555833218465" duration="12000" />
+      <workItem from="1555834340570" duration="1827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86593000" />
+    <option name="totallyTimeSpent" value="90752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21140939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22547585" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33089313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22547585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33089313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -435,22 +443,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/circulation.cpp</url>
-          <line>41</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/circulation.cpp</url>
-          <line>43</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/circulation.cpp</url>
-          <line>84</line>
+          <line>83</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/circulation.cpp</url>
-          <line>182</line>
+          <line>180</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
@@ -598,13 +596,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/maxflow.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" selection-start-line="249" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matching2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -626,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -650,42 +631,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decomposition.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#161#612#1" />
-            <element signature="e#615#838#1" />
-            <element signature="e#841#966#1" />
-            <element signature="e#1318#2684#0" />
-            <element signature="e#2686#3060#0" />
-            <element signature="e#4095#4182#0" />
-            <element signature="e#4184#5568#0" />
-            <element signature="e#5570#6248#0" />
-            <element signature="e#6250#6983#0" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circulation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/circulation.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circulation.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/decomposition.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decomposition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+          <folding>
+            <element signature="e#161#612#1" />
+            <element signature="e#615#838#1" />
+            <element signature="e#841#966#1" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,6 @@
 
 struct AdjEdge {
     int vertex;
-    int out_vertex;
     int capacity;
     int flow;
     bool real_edge;
@@ -25,7 +24,7 @@ void ReadEdges(std::vector<Vertex> &verts, std::vector<AdjEdge> &edges, std::str
 
 void WriteAnswer(std::vector<Vertex> &verts, std::vector<AdjEdge> &edges, std::string const &stream);
 
-void InitEdge(AdjEdge &edge, int out_vert, int vert, int cap, bool real);
+void InitEdge(AdjEdge &edge, int vert, int cap, bool real);
 
 int DinitzBFS(std::vector<Vertex> &verts, std::vector<AdjEdge> &edges);
 
@@ -62,19 +61,19 @@ void ReadEdges(std::vector<Vertex> &verts, std::vector<AdjEdge> &edges, std::str
     for (int i = 0; i < new_e; i += 6) {
         input >> out >> in >> min_cap >> max_cap; // read (u,v) edge
 
-        InitEdge(edges[i], first, in, min_cap, true); // (s, v) new edge
+        InitEdge(edges[i], in, min_cap, true); // (s, v) new edge
         verts[first].adj.push_back(i);
-        InitEdge(edges[i + 1], in, first, 0, false); // (v,s) new rev edge
+        InitEdge(edges[i + 1], first, 0, false); // (v,s) new rev edge
         verts[in].adj.push_back(i + 1);
 
-        InitEdge(edges[i + 2], out, in, max_cap - min_cap, true); // (u, v) updated edge
+        InitEdge(edges[i + 2], in, max_cap - min_cap, true); // (u, v) updated edge
         verts[out].adj.push_back(i + 2);
-        InitEdge(edges[i + 3], in, out, 0, false); // (v, u) new rev edge
+        InitEdge(edges[i + 3], out, 0, false); // (v, u) new rev edge
         verts[in].adj.push_back(i + 3);
 
-        InitEdge(edges[i + 4], out, last, min_cap, true); // (u,t) new edge
+        InitEdge(edges[i + 4], last, min_cap, true); // (u,t) new edge
         verts[out].adj.push_back(i + 4);
-        InitEdge(edges[i + 5], last, out, 0, false); // (t, u) new edge
+        InitEdge(edges[i + 5], out, 0, false); // (t, u) new edge
         verts[last].adj.push_back(i + 5);
     }
 
@@ -103,9 +102,8 @@ void WriteAnswer(std::vector<Vertex> &verts, std::vector<AdjEdge> &edges, std::s
 
 }
 
-void InitEdge(AdjEdge &edge, int out_vert, int vert, int cap, bool real) {
+void InitEdge(AdjEdge &edge, int vert, int cap, bool real) {
     edge.vertex = vert;
-    edge.out_vertex = out_vert;
     edge.capacity = cap;
     edge.flow = 0;
     edge.real_edge = real;
